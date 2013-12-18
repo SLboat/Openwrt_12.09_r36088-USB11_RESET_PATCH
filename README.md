@@ -30,8 +30,9 @@ DISTRIB_DESCRIPTION="OpenWrt Attitude Adjustment 12.09"
 
 ### Use the bin patch
 
-* first you need find a way to replace this file to you [12.09-aa] at /lib/module/3.3.8
+* first you need find a way to replace the patch file[/bin_patch/ath9k_hw.ko] to your [12.09-aa-r36088] at [/lib/module/3.3.8]
  i use winscp doing this
+
 * then you reboot the route,see how it going
 
 
