@@ -1,0 +1,15 @@
+==How to use this patch==
+* Replace this file[ath9k_hw.ko] to you [/lib/modules/3.3.8/ath9k_hw.ko]
+* Reboot,test,enjoy...
+
+==Note==
+* This is bin patch,which alardy compile,and only work for specail version(in here is r36088),so you just replace it and get work
+* if you not replace this file in you firmwre make,that's mean if you reset all the file,you need use it patch again
+
+==Check if sucess==
+* under the openwrt shell,by runing this command
+:md5sum /lib/modules/3.3.8/ath9k_hw.ko 
+
+If the the value is [466809e38d2c9ecacfb1bb39a8492b4b  /lib/modules/3.3.8/ath9k_hw.ko],you are using the patch
+
+if the value is [4fdb0f9b1f306cc587e7b200d3fe35b7  /lib/modules/3.3.8/ath9k_hw.ko],you are not been patch,but you use the right vesion which i believe is r36088,you can use the patch:)
