@@ -12,7 +12,7 @@ This a usb rest bin patch for openwrt.
 
 ## Another Way
 * If you dont even wana use the patch,you can try our compile mod firmware which is base on r36088,can use all the package of r36088
- get it from http://wwww.wr703.com
+ get it from http://www.wr703.com/firmware-updateslboat_mod_build_20130716-2/
 
 ## How to use
 ### Check you version
