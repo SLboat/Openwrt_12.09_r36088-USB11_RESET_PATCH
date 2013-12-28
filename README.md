@@ -7,8 +7,12 @@ A simple patch for the already 12.09 office version not backport
 This a usb rest bin patch for openwrt.
 
 ## Only work for
-* 12.09(r36088)
-;http://downloads.openwrt.org/attitude_adjustment/12.09/
+* 12.09(r36088)-ar71xx
+;http://downloads.openwrt.org/attitude_adjustment/12.09/ar71xx/generic/
+
+## Another Way
+* If you dont even wana use the patch,you can try our compile mod firmware which is base on r36088,can use all the package of r36088
+ get it from http://wwww.wr703.com
 
 ## How to use
 ### Check you version
